@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio Template for Software Engineer" />
+    <meta name="keywords" content="Software Engineering, Web Development, React, Node.js, JavaScript, HTML, CSS, Git, MongoDB, REST APIs, Problem Solving, Frontend, Backend, Full Stack Developer" />
+    <meta name="author" content="Aman Pandey" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>AMAN PANDEY</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet" />
+
+    <style>
+      body {
+        background-color: #121212;
+        color: #e0e0e0;
+        font-family: 'Source Sans Pro', sans-serif;
+      }
+      .header,
+      .footer,
+      .main-container,
+      .about,
+      .projects,
+      .contact {
+        background-color: #1e1e1e;
+        color: #ffffff;
+      }
+      a,
+      a:visited {
+        color: #90caf9;
+      }
+      .btn--theme {
+        background-color: #333;
+        color: #fff;
+        border: 1px solid #90caf9;
+      }
+      .skills__skill {
+        background-color: #333;
+        color: #fff;
+        border: 1px solid #444;
+        padding: 8px 12px;
+        margin: 4px;
+        display: inline-block;
+        border-radius: 4px;
+      }
+      a:hover,
+      .btn--theme:hover {
+        background-color: #90caf9;
+        color: #121212;
+      }
+
+      /* Typing Animation */
+      .typing, .typing2 {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #90caf9;
+  font-family: monospace;
+}
+
+/* Typing 1 - SOFTWARE ENGINEER (17 letters + space) */
+.typing {
+  animation: typing1 4.5s steps(18) 1s forwards, blink 0.6s step-end infinite alternate;
+}
+
+/* Typing 2 - DEVELOPER (9 letters) */
+.typing2 {
+  animation: typing2 3.5s steps(10) 6.2s forwards, blink 0.6s step-end infinite alternate;
+}
+
+@keyframes typing1 {
+  from { width: 0ch }
+  to { width: 18.5ch } /* slightly extra to show full text */
+}
+
+@keyframes typing2 {
+  from { width: 0ch }
+  to { width: 10ch }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <span class="header__logo-sub">AMAN PANDEY</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper"><a href="#" class="header__link">Home</a></li>
+            <li class="header__link-wrapper"><a href="#about" class="header__link">About</a></li>
+            <li class="header__link-wrapper"><a href="#projects" class="header__link">Projects</a></li>
+            <li class="header__link-wrapper"><a href="#contact" class="header__link">Let's Talk</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">
+          <span class="typing">SOFTWARE ENGINEER</span><br />
+          <span class="typing2">DEVELOPER </span>
+        </h1>
+        <p class="text-primary">
+          I am a SOFTWARE ENGINEER. My skills and technical expertise in <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>React</strong>, <strong>Node.js</strong> and
+          help websites and applications grow faster.
+        </p>
+        <div class="home-hero__cta">
+          <a href="#projects" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            I am a software engineer. My technical skills in <strong>Frontend & Backend Development</strong>, including <strong>React</strong>, <strong>Node.js</strong>, <strong>HTML/CSS</strong>, and <strong>JavaScript</strong>, help build scalable and high-performance web applications.
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <p class="about__content-details-para">
+              Hey! It's <strong>AMAN PANDEY</strong> and I'm a <strong>SOFTWARE ENGINEER</strong> located in <strong>BHOPAL</strong>. With my expertise in <strong>Full Stack Development</strong> using
+              <strong>JavaScript</strong>, <strong>React</strong>, <strong>Node.js</strong>, and <strong>MongoDB</strong>, I build efficient and robust web applications.
+            </p>
+            <p class="about__content-details-para">
+              I'm a bit of a digital product junky. Over the years, I've used hundreds of web and mobile apps. Feel free to <strong>contact</strong> me here.
+            </p>
+            <a href="mailto:ap5766709@gmail.com" class="btn btn--med btn--theme">Contact</a>
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">Node.js</div>
+              <div class="skills__skill">MongoDB</div>
+              <div class="skills__skill">Git</div>
+              <div class="skills__skill">REST APIs</div>
+              <div class="skills__skill">Problem Solving</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            Here are some of my Software Engineering projects using <strong>JavaScript</strong>, <strong>React</strong>, <strong>Node.js</strong>, and more.
+          </span>
+        </h2>
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img src="./assets/jpeg/projecta.jpeg" alt= >
+              <h1 class="project">COMING SOON PROJECTS</h1>
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">React Dashboard</h3>
+              <p class="projects__row-content-desc">
+                A modern React-based dashboard with real-time data, authentication, and REST API integration.
+              </p>
+              <a href="#" class="btn btn--med btn--theme" target="_blank">Case Study</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">Social Media</span>
+        </h2>
+        <center>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/theamankrpandey/">
+              <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/theamankrpandey">
+              <img class="main-footer__icon" src="./assets/png/twitter-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/theamankrpandey/">
+              <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/insta-ico.png" alt="icon" />
+            </a>
+          </div>
+        </center>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__lower">&copy; Copyright 2025.</div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
